@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>WallPaper</title>
+    <script src="node_modules/platform/platform.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Muli:700" rel="stylesheet">
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-color: black;
+            color: white;
+        }
+        .box {
+            font-size: 5em;
+            font-family: 'Muli', sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box"><script>document.write(platform.os)</script></div>
+</body>
+</html>
